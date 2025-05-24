@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VitaSensus - Гармония через природу</title>
+    <meta name="description" content="VitaSensus - премиальный бренд натуральных продуктов для гармоничного образа жизни. Вода, соки, мед и другие натуральные продукты.">
+    
+    <!-- Стили -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Шрифты -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome для иконок -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="logo">
+                    <img src="images/logo.svg" alt="VitaSensus Logo" class="logo__image">
+                </div>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li><a href="#philosophy" data-i18n="nav-philosophy">Философия</a></li>
+                        <li><a href="#about" data-i18n="nav-about">О нас</a></li>
+                        <li><a href="#products" data-i18n="nav-products">Продукты</a></li>
+                        <li><a href="#blog" data-i18n="nav-blog">Блог</a></li>
+                        <li><a href="#gallery" data-i18n="nav-gallery">Галерея</a></li>
+                        <li><a href="#contact" data-i18n="nav-contact">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="language-switcher">
+                    <button class="language-switcher__btn">RU</button>
+                    <div class="language-switcher__dropdown">
+                        <a href="#" data-lang="ru">Русский</a>
+                        <a href="#" data-lang="en">English</a>
+                        <a href="#" data-lang="es">Español</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Главный экран -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero__content">
+                <h1 class="hero__title" data-i18n="hero-title">VitaSensus: Гармония через природу</h1>
+                <p class="hero__subtitle" data-i18n="hero-subtitle">Источник внутреннего богатства</p>
+                <a href="#products" class="btn btn--primary" data-i18n="hero-cta">Открыть для себя VitaSensus</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Философия бренда -->
+    <section id="philosophy" class="philosophy">
+        <div class="container">
+            <div class="philosophy__content">
+                <h2 class="section-title" data-i18n="philosophy-title">Наша философия</h2>
+                <div class="philosophy__text">
+                    <p class="philosophy__paragraph" data-i18n="philosophy-text-1">
+                        В мире, где суета и материальные желания уносят нас прочь от самих себя, VitaSensus: Гармония через природу зовёт вас к пробуждению. Это не просто слова — это обещание возвращения к истокам, где каждый вдох наполнен ароматом лесов, а каждый глоток — эхом чистых источников. Природа шепчет нам о балансе, соединяя тело, разум и душу в единый танец жизни. Под её покровом мы обретаем силу — силу быть собой, силу слышать своё сердце. VitaSensus раскрывает эту гармонию, предлагая вам прикоснуться к вечной мудрости земли, где каждый момент становится священным.
+                    </p>
+                    <p class="philosophy__paragraph" data-i18n="philosophy-text-2">
+                        Но истинное богатство живёт не в сиянии золота, а в глубинах вашего духа. VitaSensus: Источник внутреннего богатства — это зов к внутреннему путешествию, где природа становится зеркалом вашей души. Это поток энергии, текущий от древних источников к вашему сердцу, пробуждая скрытые резервы счастья и покоя. Каждый луч солнца, каждая капля росы — это напоминание: ваше богатство — в осознанности, в любви к себе, в единстве с миром. С VitaSensus вы не просто живёте — вы чувствуете жизнь во всей её полноте, черпая силу из бесконечного источника внутри.
+                    </p>
+                    <p class="philosophy__paragraph" data-i18n="philosophy-text-3">
+                        Погрузитесь в эту философию. Дайте себе шанс вдохнуть гармонию, открыть богатство и стать частью природы, которая всегда ждёт вас с распростёртыми объятиями.
+                    </p>
+                </div>
+                <a href="#contact" class="btn btn--primary" data-i18n="philosophy-cta">Начать свой путь</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- О нас -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-i18n="about-title">О нас</h2>
+            
+            <!-- Основной текст -->
+            <div class="about__main">
+                <div class="about__symbol">
+                    <img src="images/symbol.svg" alt="VitaSensus Symbol" class="about__symbol-img">
+                </div>
+                <div class="about__text">
+                    <p class="about__paragraph" data-i18n="about-text-1">
+                        Мы — VitaSensus, создатели гармонии между вами и природой. Наша миссия — вдохновлять на осознанную жизнь, где каждый выбор питает тело, успокаивает разум и возвышает дух.
+                    </p>
+                    <p class="about__paragraph" data-i18n="about-text-2">
+                        Мы тщательно отбираем дары природы — чистейшую воду, спелые гранаты, ароматный мёд и золотистое оливковое масло — чтобы вы могли ощутить их силу и тепло. С VitaSensus вы начинаете путь к внутреннему богатству, где забота о себе становится искусством, а жизнь — источником бесконечного вдохновения.
+                    </p>
+                    <a href="#blog" class="btn btn--primary" data-i18n="about-cta">Узнать больше о нашей миссии</a>
+                </div>
+            </div>
+
+            <!-- Ценности -->
+            <div class="about__values">
+                <h3 class="section-subtitle" data-i18n="about-values-title">Наши ценности</h3>
+                <div class="about__values-grid">
+                    <div class="about__value-card">
+                        <div class="about__value-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <h4 data-i18n="value-harmony-title">Гармония с природой</h4>
+                        <p data-i18n="value-harmony-text">Мы верим в силу природных ингредиентов и их способность восстанавливать баланс в организме. Каждый продукт создан с уважением к природе и её циклам.</p>
+                    </div>
+                    <div class="about__value-card">
+                        <div class="about__value-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h4 data-i18n="value-mindfulness-title">Осознанность</h4>
+                        <p data-i18n="value-mindfulness-text">Мы поощряем осознанный подход к здоровью и благополучию, где каждый выбор делается с пониманием его влияния на тело, разум и дух.</p>
+                    </div>
+                    <div class="about__value-card">
+                        <div class="about__value-icon">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                        <h4 data-i18n="value-sustainability-title">Устойчивое развитие</h4>
+                        <p data-i18n="value-sustainability-text">Мы стремимся к устойчивому развитию, используя экологичные материалы и поддерживая ответственное производство.</p>
+                    </div>
+                    <div class="about__value-card">
+                        <div class="about__value-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 data-i18n="value-quality-title">Премиальное качество</h4>
+                        <p data-i18n="value-quality-text">Мы предлагаем только продукты высочайшего качества, прошедшие строгий контроль и соответствующие самым высоким стандартам.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Блог -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2 class="section-title" data-i18n="blog-title">Блог</h2>
+            <div class="blog__grid">
+                <article class="blog-card">
+                    <div class="blog-card__icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <div class="blog-card__image">
+                        <img src="images/blog/water-benefits.jpg" alt="Польза воды" data-i18n-alt="blog-water-image-alt">
+                    </div>
+                    <div class="blog-card__content">
+                        <div class="blog-card__date" data-i18n="blog-water-date">15 марта 2024</div>
+                        <h3 class="blog-card__title" data-i18n="blog-water-title">Вода VitaSensus: источник жизненной энергии</h3>
+                        <p class="blog-card__excerpt" data-i18n="blog-water-excerpt">Уникальные свойства щелочной воды из источника BQ-2 и её влияние на здоровье и долголетие...</p>
+                        <a href="#" class="blog-card__link" data-i18n="blog-read-more">Читать далее</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-card__icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <div class="blog-card__image">
+                        <img src="images/blog/healthy-lifestyle.jpg" alt="Здоровый образ жизни" data-i18n-alt="blog-harmony-image-alt">
+                    </div>
+                    <div class="blog-card__content">
+                        <div class="blog-card__date" data-i18n="blog-harmony-date">10 марта 2024</div>
+                        <h3 class="blog-card__title" data-i18n="blog-harmony-title">Гармония души и тела: путь к осознанной жизни</h3>
+                        <p class="blog-card__excerpt" data-i18n="blog-harmony-excerpt">Как правильное питание и осознанный подход к здоровью помогают достичь внутренней гармонии...</p>
+                        <a href="#" class="blog-card__link" data-i18n="blog-read-more">Читать далее</a>
+                    </div>
+                </article>
+
+                <article class="blog-card">
+                    <div class="blog-card__icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <div class="blog-card__image">
+                        <img src="images/blog/natural-products.jpg" alt="Натуральные продукты" data-i18n-alt="blog-nature-image-alt">
+                    </div>
+                    <div class="blog-card__content">
+                        <div class="blog-card__date" data-i18n="blog-nature-date">5 марта 2024</div>
+                        <h3 class="blog-card__title" data-i18n="blog-nature-title">Дары природы: сила натуральных продуктов VitaSensus</h3>
+                        <p class="blog-card__excerpt" data-i18n="blog-nature-excerpt">Почему натуральные продукты так важны для нашего здоровья и как VitaSensus помогает сделать правильный выбор...</p>
+                        <a href="#" class="blog-card__link" data-i18n="blog-read-more">Читать далее</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Продукты -->
+    <section id="products" class="products section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="products-title">Наши продукты</h2>
+            <div class="products__grid">
+                <div class="product-card">
+                    <div class="product-card__image">
+                        <img src="images/products/water.jpg" alt="Вода VitaSensus" class="product-card__img">
+                        <div class="product-card__badge" data-i18n="product-1-badge">Премиум</div>
+                    </div>
+                    <div class="product-card__content">
+                        <h3 class="product-card__title" data-i18n="product-1-name">Вода из источника BQ-2</h3>
+                        <p class="product-card__subtitle" data-i18n="product-1-subtitle">Щелочная вода из источника BQ-2</p>
+                        <div class="product-card__description">
+                            <p data-i18n="product-1-description">Кристально чистый источник гармонии и здоровья, добываемый из скважины глубиной 82 метра в Рогатец-Собонки, Чехия. С антиоксидантными свойствами (ОВП -206 мВ, pH 8.2), укрепляет иммунитет и омолаживает кожу, волосы и ногти.</p>
+                        </div>
+                        <div class="product-card__features">
+                            <li><i class="fas fa-check"></i> <span data-i18n="product-1-feature-1">Минерализация: 333 мг/л</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="product-1-feature-2">Тип: HCO3-Na-Ca</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="product-1-feature-3">Источник: Рогатец-Собонки, Чехия</span></li>
+                        </div>
+                        <button class="btn btn--primary product-card__btn" data-product-id="1" data-i18n="learnMore">Узнать больше</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-card__image">
+                        <img src="images/products/juice.jpg" alt="Сок VitaSensus" class="product-card__img">
+                        <div class="product-card__badge" data-i18n="product-2-badge">Натуральный</div>
+                    </div>
+                    <div class="product-card__content">
+                        <h3 class="product-card__title" data-i18n="product-2-name">Натуральный гранатовый сок</h3>
+                        <p class="product-card__subtitle" data-i18n="product-2-subtitle">Натуральные соки прямого отжима</p>
+                        <div class="product-card__description">
+                            <p data-i18n="product-2-description">Эликсир жизненной силы из спелых гранатов. Богат антиоксидантами и витаминами, поддерживает здоровье сердца и повышает энергию.</p>
+                        </div>
+                        <div class="product-card__features">
+                            <li><i class="fas fa-check"></i> <span data-i18n="product-2-feature-1">Объем: 1 литр</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="product-2-feature-2">Состав: 100% гранатовый сок</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="product-2-feature-3">Хранение: Хранить в прохладном месте</span></li>
+                        </div>
+                        <button class="btn btn--primary product-card__btn" data-product-id="2" data-i18n="learnMore">Узнать больше</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-card__image">
+                        <img src="images/products/honey.jpg" alt="Мед VitaSensus" class="product-card__img">
+                        <div class="product-card__badge" data-i18n="product-3-badge">Эксклюзив</div>
+                    </div>
+                    <div class="product-card__content">
+                        <h3 class="product-card__title" data-i18n="product-3-name">Мед</h3>
+                        <p class="product-card__subtitle" data-i18n="product-3-subtitle">Натуральный мед с пасек</p>
+                        <div class="product-card__description">
+                            <p data-i18n="product-3-description">Сладкий дар природы с цветущих лугов. Богат антиоксидантами, укрепляет иммунитет и успокаивает организм.</p>
+                        </div>
+                        <div class="product-card__features">
+                            <li><i class="fas fa-check"></i> <span data-i18n="product-3-feature-1">Вес: 500 г</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="product-3-feature-2">Происхождение: Чешские луга</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="product-3-feature-3">Тип: Цветочный мед</span></li>
+                        </div>
+                        <button class="btn btn--primary product-card__btn" data-product-id="3" data-i18n="learnMore">Узнать больше</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-card__image">
+                        <img src="images/products/oil.jpg" alt="Оливковое масло VitaSensus" class="product-card__img">
+                        <div class="product-card__badge" data-i18n="product-4-badge">Экстра Вирджин</div>
+                    </div>
+                    <div class="product-card__content">
+                        <h3 class="product-card__title" data-i18n="product-4-name">Оливковое масло</h3>
+                        <p class="product-card__subtitle" data-i18n="product-4-subtitle">Extra Virgin Olive Oil первого отжима</p>
+                        <div class="product-card__description">
+                            <p data-i18n="product-4-description">Жидкое золото Средиземноморья, изготовленное из собранных вручную оливок. Поддерживает здоровье сердца и способствует долголетию.</p>
+                        </div>
+                        <div class="product-card__features">
+                            <li><i class="fas fa-check"></i> <span data-i18n="product-4-feature-1">Объем: 500 мл</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="product-4-feature-2">Тип: Extra Virgin</span></li>
+                            <li><i class="fas fa-check"></i> <span data-i18n="product-4-feature-3">Происхождение: Испания</span></li>
+                        </div>
+                        <button class="btn btn--primary product-card__btn" data-product-id="4" data-i18n="learnMore">Узнать больше</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-i18n="contact-title">Свяжитесь с нами</h2>
+            <div class="contact__content">
+                <div class="contact__form">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required
+                                   data-i18n-placeholder="contact-name-placeholder"
+                                   placeholder="Ваше имя">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required
+                                   data-i18n-placeholder="contact-email-placeholder"
+                                   placeholder="Ваш email">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" required
+                                      data-i18n-placeholder="contact-message-placeholder"
+                                      placeholder="Ваше сообщение"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary" data-i18n="contact-submit">Отправить</button>
+                    </form>
+                </div>
+                <div class="contact__info">
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+                        <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Галерея -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title" data-i18n="gallery-title">Галерея</h2>
+            <div class="gallery__grid">
+                <div class="gallery__item">
+                    <img src="images/gallery/product-1.jpg" alt="Продукт VitaSensus" data-i18n-alt="gallery-water">
+                    <div class="gallery__overlay">
+                        <span class="gallery__caption" data-i18n="gallery-water">Вода из источника BQ-2</span>
+                    </div>
+                </div>
+                <div class="gallery__item">
+                    <img src="images/gallery/product-2.jpg" alt="Продукт VitaSensus" data-i18n-alt="gallery-juice">
+                    <div class="gallery__overlay">
+                        <span class="gallery__caption" data-i18n="gallery-juice">Натуральные соки</span>
+                    </div>
+                </div>
+                <div class="gallery__item">
+                    <img src="images/gallery/product-3.jpg" alt="Продукт VitaSensus" data-i18n-alt="gallery-honey">
+                    <div class="gallery__overlay">
+                        <span class="gallery__caption" data-i18n="gallery-honey">Мед и продукты пчеловодства</span>
+                    </div>
+                </div>
+                <div class="gallery__item">
+                    <img src="images/gallery/product-4.jpg" alt="Продукт VitaSensus" data-i18n-alt="gallery-olive-oil">
+                    <div class="gallery__overlay">
+                        <span class="gallery__caption" data-i18n="gallery-olive-oil">Оливковое масло</span>
+                    </div>
+                </div>
+                <div class="gallery__item">
+                    <img src="images/gallery/product-5.jpg" alt="Продукт VitaSensus" data-i18n-alt="gallery-syrup">
+                    <div class="gallery__overlay">
+                        <span class="gallery__caption" data-i18n="gallery-syrup">Натуральные сиропы</span>
+                    </div>
+                </div>
+                <div class="gallery__item">
+                    <img src="images/gallery/product-6.jpg" alt="Продукт VitaSensus" data-i18n-alt="gallery-herbs">
+                    <div class="gallery__overlay">
+                        <span class="gallery__caption" data-i18n="gallery-herbs">Травяные сборы</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подвал -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <p data-i18n="footer-copyright">&copy; 2024 VitaSensus. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Скрипты -->
+    <script src="js/translations.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</body>
+</html> 
