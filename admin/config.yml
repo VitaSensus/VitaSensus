@@ -3,7 +3,7 @@
        repo: VitaSensus/VitaSensus
        branch: main
        auth_scope: repo
-       client_id:Ov23lizdsF6qx8j1eTbn
+       client_id: Ov23lizdsF6qx8j1eTbn
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
