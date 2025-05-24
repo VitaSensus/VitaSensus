@@ -5,8 +5,8 @@ backend:
   auth_scope: repo
   client_id: Ov23lizdsF6qx8j1eTbn
 
-media_folder: "images/uploads"
-public_folder: "/images/uploads"
+media_folder:"images/uploads"
+public_folder:"/images/uploads"
 
 collections:
   - name: "pages"
